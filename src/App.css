@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.Home {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.Home h1 {
+  font-size: 2rem;
+  color: #767676;
+  font-family: Roboto, Arial, sans-serif;
+  border-bottom: 0.5vmin solid #000;
+  padding: 1vmin 0;
+}
+.Home h2 {
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 0.5vmin 0 0 0;
+  margin-bottom: 0;
+}
+.peopleList,
+#name {
+  display: block;
+  max-height: 75vh;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}
+.list-group-item small {
+  float: right;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  padding: 0.5rem 0rem;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  background: #fff;
+}
+
+
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  20%, 40% { transform: translate3d(0, 66%, 0); }
+  60%, 80% { transform: translate3d(0, 33%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showButtons {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes copyButtonFlash {
+  0% { background: inital; }
+  25% { background: #28a745; }
+  50% { background: #28a745; }
+  100% { background: inital; }
+}
+.animated-title {
+  color: #222;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 6vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title.restartAnimation > div.text-top div {
+  animation: none;
+}
+.animated-title > div.text-top div span:first-child {
+  color: #767676;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+.loadingSpinner {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 32px);
+}
+
+.buttonContainer {
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.buttons {
+  animation: showButtons 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+
+.buttons a {
+  font-size: 1.9vmin;
+}
+.buttons .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.buttons .btn:last-child {
+  margin-right: 0;
+}
+
+.popover-body {
+  text-align: center;
+}
+.popover-body button {
+  margin-right: 0.5rem;
+}
+.copyIcon {
+  width: 32px;
+  height: 32px;
+  background: gray;
+  overflow: hidden;
+  border-radius: 50%;
+  color: #fff;
+  padding: 3px 7px 9px 8px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 11px;
+}
+.copyIcon.copied {
+  animation: copyButtonFlash 0.25s;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  body {
+    font-size: 4vmin;
+  }
+
+  .Home,
+  footer {
+    width: 90%;
+  }
+
+  .buttons .btn {
+    width: 90%;
+    font-size: 2.25vmin;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) { 
+  .buttons .btn {
+    font-size: 2.5vmin;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) { 
+  .buttons .btn {
+    font-size: 4vmin;
+    width: 90%;
+    margin-right: 0;
+  }
+}
