@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { formatCash } from "../../lib/money";
-import forbes from 'forbes-list';
 import { getList } from '../../data/list';
 
 import {
@@ -23,13 +22,13 @@ function Home() {
       setList(localList);
       setLoading(false);
     }
-    else {
-      forbes.list().then(response => {
-        setList(response);
-        setLoading(false);
-        localStorage.setItem('list', JSON.stringify(response));
-      });
-    }
+    // else {
+    //   forbes.list().then(response => {
+    //     setList(response);
+    //     setLoading(false);
+    //     localStorage.setItem('list', JSON.stringify(response));
+    //   });
+    // }
   }, []);
 
   return (

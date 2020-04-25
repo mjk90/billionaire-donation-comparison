@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import forbes from 'forbes-list';
 import { formatCash, calculateAmount } from "../../lib/money";
 import SharePopover from './components/sharePopover';
 import { getList } from '../../data/list';
@@ -45,12 +44,12 @@ function Compare(props) {
       if (!!localList) {
         getDetails(localList, name, donated, earn);
       }
-      else {
-        forbes.list().then(response => {
-          localStorage.setItem('list', JSON.stringify(response));
-          getDetails(response, name, donated, earn);
-        });
-      }
+      // else {
+      //   forbes.list().then(response => {
+      //     localStorage.setItem('list', JSON.stringify(response));
+      //     getDetails(response, name, donated, earn);
+      //   });
+      // }
     }
     else {
       setModal(false);
