@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4d44380940db3d46607eb839f23ddde",
+    "revision": "86943ded60a98e776accb8ba56b90ec8",
     "url": "/billionaire-donation-comparison/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/billionaire-donation-comparison/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "7ba51c7dcc334a7af9c3",
+    "revision": "a6814b939ea7d9b59798",
     "url": "/billionaire-donation-comparison/static/css/main.b7bbcf47.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/billionaire-donation-comparison/static/js/2.942af859.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ba51c7dcc334a7af9c3",
-    "url": "/billionaire-donation-comparison/static/js/main.7bd1d2e4.chunk.js"
+    "revision": "a6814b939ea7d9b59798",
+    "url": "/billionaire-donation-comparison/static/js/main.765ea433.chunk.js"
   },
   {
     "revision": "49d441b55d4727491fb3",

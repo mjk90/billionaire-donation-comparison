@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/billionaire-donation-comparison/precache-manifest.389a4f7ed816c15fcd55d65d2d45b9c5.js"
+  "/billionaire-donation-comparison/precache-manifest.5b51a1c99984f8d144cf29084e1f23ee.js"
 );
 
 self.addEventListener('message', (event) => {

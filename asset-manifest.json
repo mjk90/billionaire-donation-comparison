@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/billionaire-donation-comparison/static/css/main.b7bbcf47.chunk.css",
-    "main.js": "/billionaire-donation-comparison/static/js/main.7bd1d2e4.chunk.js",
-    "main.js.map": "/billionaire-donation-comparison/static/js/main.7bd1d2e4.chunk.js.map",
+    "main.js": "/billionaire-donation-comparison/static/js/main.765ea433.chunk.js",
+    "main.js.map": "/billionaire-donation-comparison/static/js/main.765ea433.chunk.js.map",
     "runtime-main.js": "/billionaire-donation-comparison/static/js/runtime-main.d6b5a1ae.js",
     "runtime-main.js.map": "/billionaire-donation-comparison/static/js/runtime-main.d6b5a1ae.js.map",
     "static/css/2.69121389.chunk.css": "/billionaire-donation-comparison/static/css/2.69121389.chunk.css",
     "static/js/2.942af859.chunk.js": "/billionaire-donation-comparison/static/js/2.942af859.chunk.js",
     "static/js/2.942af859.chunk.js.map": "/billionaire-donation-comparison/static/js/2.942af859.chunk.js.map",
     "index.html": "/billionaire-donation-comparison/index.html",
-    "precache-manifest.389a4f7ed816c15fcd55d65d2d45b9c5.js": "/billionaire-donation-comparison/precache-manifest.389a4f7ed816c15fcd55d65d2d45b9c5.js",
+    "precache-manifest.5b51a1c99984f8d144cf29084e1f23ee.js": "/billionaire-donation-comparison/precache-manifest.5b51a1c99984f8d144cf29084e1f23ee.js",
     "service-worker.js": "/billionaire-donation-comparison/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/billionaire-donation-comparison/static/css/2.69121389.chunk.css.map",
     "static/css/main.b7bbcf47.chunk.css.map": "/billionaire-donation-comparison/static/css/main.b7bbcf47.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.942af859.chunk.js",
     "static/css/main.b7bbcf47.chunk.css",
-    "static/js/main.7bd1d2e4.chunk.js"
+    "static/js/main.765ea433.chunk.js"
   ]
 }
